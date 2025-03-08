@@ -1,0 +1,35 @@
+<!--Michael Schlitt-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--JS and CSS links-->
+    <script src="Login_JS.js"></script>
+     <link rel="stylesheet" href="Main.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <h1> Login Form </h1>
+
+<form id="login" onsubmit = "return false">
+
+    First Name: <input type="text" id="fName"/>
+    <br>
+    Last Name: <input type="text" id="lName"/>
+    <br>
+    Zip Code: <input type="number" id="zipcode"/>
+    <br>
+    Password: <input type="password" id="PW"/>
+    <br>
+    <br>
+    <!--JavaScript Function-->
+    <input type="submit" onclick="checkCreds();">
+</form>
+
+<p id = "loginStatus">Status of Login</p>
+
+
+</body>
+</html>
