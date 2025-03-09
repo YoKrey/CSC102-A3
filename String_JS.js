@@ -2,17 +2,7 @@ function strings()
 {
     //Text entry Var
     var string1 = document.getElementById("firststring").value;
-    var string2 = document.getElementById("secondstring").value;
-
-    //Var answers post submit in <p>
-    var str3 = string1 + string2;
-    document.getElementById("updates").innerHTML= "Concatenated String = " + str3;
-
-    var len = str3.length;
-    document.getElementById("updates2").innerHTML= "Length of Concat String = " + len;
-
-    var substring = str3.substring(1,3)
-    document.getElementById("updates3").innerHTML = "Substring = " + substring;
+    
 
     //Palindrome test (Split, Reverse, Join  )
     var splitstring = string1.split("");
